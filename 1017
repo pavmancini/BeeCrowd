@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+  float horas, velocidade,consumo = 12;
+  printf("Informe o tempo total de viagem em horas: ");
+  scanf("%f", &horas);
+
+  printf("Informe a velocidade média durante a viagem: ");
+  scanf("%f", &velocidade);
+
+  float consumototal = horas * velocidade / consumo;
+  printf("O combustível gasto durante a viagem foi de %.3f litros", consumototal);
+return 0;
+}
